@@ -1,4 +1,4 @@
-yii2-dynamicform (update gep)
+yii2-dynamicform (update dynamicform)
 ===================
 
 Descrição 

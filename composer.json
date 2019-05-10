@@ -1,8 +1,8 @@
 {
-    "name": "gep/yii2-dynamicform",
+    "name": "dynamicform/yii2-dynamicform",
     "description": "Componente alterado para atender necessidades do projeto",
     "keywords": [
-        "gep",
+        "dynamicform",
         "yii2",
         "extension",
         "widget",
@@ -12,13 +12,6 @@
     ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",    
-    "authors": [
-        {
-            "name": "Wanderson Bragança",
-            "email": "wanderson.wbc@gmail.com",
-            "homepage": "http://wbraganca.com"
-        }
-    ],
     "require": {
         "yiisoft/yii2": "~2.0.5",
         "symfony/css-selector": "~2.8|~3.0",
@@ -26,7 +19,7 @@
     },
     "autoload": {
 		"psr-4": {
-			"gep\\dynamicform\\": "src/"
+			"dynamicform\\dynamicform\\": "src/"
 		}
 
     }
