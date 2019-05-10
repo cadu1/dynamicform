@@ -4,16 +4,7 @@ yii2-dynamicform (update dynamicform)
 Descrição 
 -----------
 
-Essa biblioteca foi criada para uso interno, a real finalidade e para atender as necessidade do projeto. 
-
------------
-[![Latest Version](https://img.shields.io/github/release/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://github.com/wbraganca/yii2-dynamicform/releases)
-[![Software License](http://img.shields.io/badge/license-BSD3-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://packagist.org/packages/wbraganca/yii2-dynamicform)
-
-
-It is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.
-![yii2-dynamicform](http://wbraganca.com/img/yii2-dynamicform/sample.jpg)
+Essa biblioteca foi criada para uso interno, a real finalidade e para atender as necessidade do projeto. Esse é o projeto oficial: https://github.com/wbraganca/yii2-dynamicform
 
 Installation
 ------------
@@ -21,24 +12,12 @@ Installation
 Será necessário informar o repositorio no arquivo composer.json.
 
 "repositories": [
-        { "type": "github", "url": "https://github.com/cadu1/yii2-dynamicform.git" }
-    ],
-
-
-
-Demos
------
-
-* [Demo 1](http://wbraganca.com/yii2extensions/dynamicform-demo1/) - (Address Book).
-* [Demo 2](http://wbraganca.com/yii2extensions/dynamicform-demo2/) - (File Upload).
-* [Demo 3](http://wbraganca.com/yii2extensions/dynamicform-demo3/) - (Nested Dynamic Form).
+	{ "type": "git", "url": "https://github.com/cadu1/dynamicform.git" }
+],
 
 
 Usage
 -----
-
-###Hypothetical Scenario
-![Database](http://wbraganca.com/img/yii2-dynamicform/hypothetical-scenario.jpg)
 
 ###The View
 
@@ -46,7 +25,7 @@ Usage
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use wbraganca\dynamicform\DynamicFormWidget;
+use dynamicform\dynamicform\DynamicFormWidget;
 ?>
 
 <div class="customer-form">
@@ -375,7 +354,7 @@ class Model extends \yii\base\Model
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use wbraganca\dynamicform\DynamicFormWidget;
+use dynamicform\dynamicform\DynamicFormWidget;
 ?>
 
 <div class="customer-form">
